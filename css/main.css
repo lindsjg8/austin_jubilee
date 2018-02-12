@@ -1,0 +1,122 @@
+/*** BASE STYLES ***/
+
+body {
+  font-family: "Monteserrat", Helvetica, sans-serif;
+  max-width: 1200px;
+  height: auto;
+
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #77a466;
+}
+
+h3 {
+  font-size: 16px;
+}
+
+h4 {
+  font-size: 12px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 21px;
+
+}
+
+/*** HEADER STYLES ***/
+
+header {
+  width: 100%;
+  margin: 0 auto;  /***this centers the header. Put margins on h1 instead of here ****/
+}
+
+header h1 {
+  float: left;
+  text-align: left;
+  margin: 40px 20px 15px 0px;
+}
+
+header h1 span {
+  color: #77a466;
+}
+
+nav {
+  float: right;
+  margin-top: 45px;
+}
+
+nav a {
+  font-size: 14px;
+  color: #77a466;
+  text-decoration: none;
+  padding-right: 20px;
+}
+
+#hero {
+  border-top: 3px solid #77a466;
+  border-bottom: 3px solid #77a466;
+}
+
+/***  WELCOME SECTION STYLES ***/
+
+#welcome {
+  margin-top: 30px;
+}
+
+/***  3 COLUMN SECTION STYLES ***/
+
+
+#column-one, #column-two, #column-three {
+  float: left;
+  width: 29%;
+  height: 240px;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #eee;
+  margin-bottom: 30px;
+
+}
+
+#column-one,
+#column-two {
+  border-right: 1px solid #eee;
+}
+
+.columns p {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 10px;
+}
+
+#column-one p {
+  color: #77a466;
+}
+
+.columns h4 {
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+#column-three ul {
+  list-style: none;
+}
+/***  FOOTER SECTION ***/
+
+footer {
+  clear: both;
+}
+
+footer h3 {
+  text-align: center;
+}
+
+footer span {
+  font-style: italic;
+  color: #77a466;
+}
